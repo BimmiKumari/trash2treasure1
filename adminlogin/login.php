@@ -8,7 +8,7 @@
       // username and password sent from form 
       
       $myusername = mysqli_real_escape_string($db,$_POST['username']);
-      $mypassword = mysqli_real_escape_string($db,$_POST['password']); 
+      $mypassword = mysqli_real_escape_string($db,$_POST['password']);
       
       $sql = "SELECT id FROM adminlogin WHERE username = '$myusername' and password = '$mypassword'";
       $result = mysqli_query($db,$sql);
@@ -38,10 +38,10 @@
       <link rel="stylesheet"type="text/css" href="login.css">     
    </head>
    
-   <body bgcolor = "#FFFFFF">
+   <body  style="bgcolor:#FFFFFF">
 	
-      <div align = "center">
-         <div style = "width:300px; border: solid 1px #333333; " align = "left">
+      <div style="align:center">
+         <div style = "width:300px; border: solid 1px #333333; align:left">
             <div style = "background-color:#333333; color:#FFFFFF; padding:3px;"><b>Admin Login</b></div>
 				
             <div style = "margin:30px">

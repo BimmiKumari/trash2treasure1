@@ -29,7 +29,7 @@ if(isset($_POST['signup'])){
         if($data_check){
             $subject = "Email Verification Code";
             $message = "Your verification code is $code";
-            $sender = "From: bistajanak303@gmail.com";
+            $sender = "From: bimmyyysingh@gmail.com";
             if(mail($email, $subject, $message, $sender)){
                 $info = "We've sent a verification code to your email - $email";
                 $_SESSION['info'] = $info;
@@ -46,7 +46,7 @@ if(isset($_POST['signup'])){
     }
 
 }
-    //if user click verification code submit button
+
     if(isset($_POST['check'])){
         $_SESSION['info'] = "";
         $otp_code = mysqli_real_escape_string($con, $_POST['otp']);

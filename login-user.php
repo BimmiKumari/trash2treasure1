@@ -12,13 +12,13 @@
 
     </head>
     <body>
-      <!--Hey! This is the original version of Simple CSS Waves-->
+      
 
 <div class="header">
 
-    <!--Content before waves-->
+    
     <div class="inner-header flex">
-    <!--Just the logo.. Don't mind this-->
+
     <svg version="1.1" class="logo" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 500" xml:space="preserve">
     <path fill="#FFFFFF" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M57,283" />
@@ -91,7 +91,7 @@
     
     <!--Content starts-->
     <div class="content flex">
-    <p>Waste Management system | 2022 | 
+    <p>Trash2Treasure
          <!-- <i class="fa fa-user" aria-hidden="true">Admin</i> -->
          <a href="adminsignup/adminlogin.php"> <i class="fa fa-lock" aria-hidden="true"> Login As Admin</i></a>
          <!-- <i class="fa fa-users" aria-hidden="true"></i> -->
